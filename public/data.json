@@ -1,0 +1,14 @@
+[
+    {"id": 1, "name":"Asari no sakemushi", "price":50, "img":"https://cdn.tasteatlas.com//images/dishes/2e7049d043e04e9f8b8623c15d65755f.jpg"},
+    {"id": 2, "name":"Mango", "price":60, "img":""},
+    {"id": 3, "name":"Orange", "price":70, "img":""},
+    {"id": 4, "name":"Grapes", "price":100, "img":""},
+    {"id": 5, "name":"Jackfruit", "price":80, "img":""},
+    {"id": 6, "name":"WaterMelon", "price":90, "img":""},
+    {"id": 7, "name":"Apple", "price":120, "img":""},
+    {"id": 8, "name":"Pineapple", "price":100, "img":""},
+    {"id": 9, "name":"Papaya", "price":100, "img":""},
+    {"id": 10, "name":"Kiwi", "price":100, "img":""},
+    {"id": 11, "name":"Strawberry", "price":100, "img":""},
+    {"id": 12, "name":"Coconut", "price":100, "img":""}
+]
