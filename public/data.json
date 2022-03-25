@@ -1,14 +1,14 @@
 [
-    {"id": 1, "name":"Saba misoni", "price":50, "img":"https://cdn.tasteatlas.com//images/dishes/676216075308437585df5c5fdcc4fda8.jpg?w=905&h=510"},
-    {"id": 2, "name":"Katsuo no tataki", "price":60, "img":"https://cdn.tasteatlas.com//images/dishes/1167810a0fd044ab9578ef7a5468f69c.jpg?w=905&h=510"},
-    {"id": 3, "name":"Akami nigiri sushi", "price":70, "img":"https://cdn.tasteatlas.com//images/dishes/e9de806544d9448f8bfa18b64e9db9d0.jpg?w=905&h=510"},
-    {"id": 4, "name":"Funazushi", "price":100, "img":"https://cdn.tasteatlas.com//images/dishes/e2e125734dd342dabbcbf0cdeba102ba.jpg?w=905&h=510"},
-    {"id": 5, "name":"Saltwater Eel Nigiri Sushi", "price":80, "img":"https://cdn.tasteatlas.com//images/dishes/88dc580cd7e04071a213634b1711279d.jpg?w=905&h=510"},
-    {"id": 6, "name":"Sake nigiri sushi", "price":90, "img":"https://cdn.tasteatlas.com//images/dishes/ef30d84ca9f04834917378c56630c6da.jpg?w=905&h=510"},
-    {"id": 7, "name":"Oshizushi", "price":120, "img":"https://cdn.tasteatlas.com//Images/Dishes/5008322955874e528bb7614ad41b4859.jpg?w=905&h=510"},
-    {"id": 8, "name":"Ikayaki", "price":100, "img":"https://cdn.tasteatlas.com//Images/Dishes/425f9916fbe14a25839364e6b73e1163.jpg?w=905&h=510"},
-    {"id": 9, "name":"Ika sōmen", "price":100, "img":"https://cdn.tasteatlas.com//images/dishes/4873acc1800b49668a5bbd6fb73e1a48.jpg?w=905&h=510"},
-    {"id": 10, "name":"Asari no sakemushi", "price":100, "img":"https://cdn.tasteatlas.com//images/dishes/2e7049d043e04e9f8b8623c15d65755f.jpg?w=905&h=510"},
-    {"id": 11, "name":"Otoro nigiri sushi", "price":100, "img":"https://cdn.tasteatlas.com//images/dishes/84299bcc3447446c8c5d3aeadc7ef3ac.jpg?w=905&h=510"},
-    {"id": 12, "name":"Yakizakana", "price":100, "img":"https://cdn.tasteatlas.com//images/dishes/05e10cde61e24bbbbe54af916618e14b.jpg?w=905&h=510"}
+    {"id": 1, "name":"Saba misoni", "price":50, "img":"https://cdn.tasteatlas.com//images/dishes/676216075308437585df5c5fdcc4fda8.jpg?w=270&h=220"},
+    {"id": 2, "name":"Katsuo no tataki", "price":60, "img":"https://cdn.tasteatlas.com//images/dishes/1167810a0fd044ab9578ef7a5468f69c.jpg?w=270&h=220"},
+    {"id": 3, "name":"Akami nigiri sushi", "price":70, "img":"https://cdn.tasteatlas.com//images/dishes/e9de806544d9448f8bfa18b64e9db9d0.jpg?w=270&h=220"},
+    {"id": 4, "name":"Funazushi", "price":100, "img":"https://cdn.tasteatlas.com//images/dishes/e2e125734dd342dabbcbf0cdeba102ba.jpg?w=270&h=220"},
+    {"id": 5, "name":"Saltwater Eel Nigiri Sushi", "price":80, "img":"https://cdn.tasteatlas.com//images/dishes/88dc580cd7e04071a213634b1711279d.jpg?w=270&h=220"},
+    {"id": 6, "name":"Sake nigiri sushi", "price":90, "img":"https://cdn.tasteatlas.com//images/dishes/ef30d84ca9f04834917378c56630c6da.jpg?w=270&h=220"},
+    {"id": 7, "name":"Oshizushi", "price":120, "img":"https://cdn.tasteatlas.com//Images/Dishes/5008322955874e528bb7614ad41b4859.jpg?w=270&h=220"},
+    {"id": 8, "name":"Ikayaki", "price":100, "img":"https://cdn.tasteatlas.com//Images/Dishes/425f9916fbe14a25839364e6b73e1163.jpg?w=270&h=220"},
+    {"id": 9, "name":"Ika sōmen", "price":100, "img":"https://cdn.tasteatlas.com//images/dishes/4873acc1800b49668a5bbd6fb73e1a48.jpg?w=270&h=220"},
+    {"id": 10, "name":"Asari no sakemushi", "price":100, "img":"https://cdn.tasteatlas.com//images/dishes/2e7049d043e04e9f8b8623c15d65755f.jpg?w=270&h=220"},
+    {"id": 11, "name":"Otoro nigiri sushi", "price":100, "img":"https://cdn.tasteatlas.com//images/dishes/84299bcc3447446c8c5d3aeadc7ef3ac.jpg?w=270&h=220"},
+    {"id": 12, "name":"Yakizakana", "price":100, "img":"https://cdn.tasteatlas.com//images/dishes/05e10cde61e24bbbbe54af916618e14b.jpg?w=270&h=220"}
 ]

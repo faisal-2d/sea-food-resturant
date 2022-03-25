@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Seafood from '../Seafood/Seafood';
+import './Shop.css'
 
 const Shop = () => {
     const [seafood, setSeafood] = useState([]);
@@ -13,9 +14,16 @@ const Shop = () => {
         <div>
             <h3>Please choose your favorite food!</h3>            
             
-            {
-              seafood.map(item =>  <Seafood key={item.id} item={item}></Seafood>) 
-            }
+            <div className='shop-container'>
+                <div className='food-container'>
+                {
+                seafood.map(item =>  <Seafood key={item.id} item={item}></Seafood>) 
+                }
+                </div>
+                <div>
+                    <p>This is a cart</p>
+                </div>
+            </div>
         </div>
     );
 };
