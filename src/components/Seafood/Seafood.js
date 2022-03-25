@@ -4,10 +4,13 @@ import './Seafood.css'
 const Seafood = ({item}) => {
     return (
         <div>
-            <h3>im a sea food</h3>
-            <div className='food-item'>
-                <div className='menu-img'>
-                    <img src={item.img} alt="" />
+            <div className='food-item'>                
+                <img src={item.img} alt="" />                
+                <div className='item-details'>
+                    <small>Food Id: {item.id}</small>
+                    <h3 className='food-name'>{item.name}</h3>
+                    <h4>Price: ${item.price}</h4>
+                    <button>Add To cart</button>
                 </div>
             </div>
         </div>
