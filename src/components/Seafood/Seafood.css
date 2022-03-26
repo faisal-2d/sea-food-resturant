@@ -16,3 +16,14 @@
     text-align: left;
     line-height: 10px;
 }
+
+.add-to-cart-btn{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 207, 189);
+    border-radius: 50px;
+}
+.add-to-cart-btn:hover{
+    background-color: rgb(255, 144, 104);
+}

@@ -1,4 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Seafood from '../Seafood/Seafood';
 import './Shop.css'
 
@@ -9,10 +10,10 @@ const Shop = () => {
         fetch('data.json')
         .then(res => res.json())
         .then(data => setSeafood(data))
-    },[])
+    },[]);
     return (
         <div>
-            <h3>Please choose your favorite food!</h3>            
+            <h3>Please choose <span style={{"color":"rgb(211, 19, 83)"}}>your favorite</span> food!</h3>            
             
             <div className='shop-container'>
                 <div className='food-container'>
@@ -21,7 +22,7 @@ const Shop = () => {
                 }
                 </div>
                 <div>
-                    <p>This is a cart</p>
+                    <Cart key={seafood.id} seafood={seafood}></Cart>
                 </div>
             </div>
         </div>
