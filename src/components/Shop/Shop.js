@@ -7,7 +7,7 @@ import './Shop.css'
 
 const Shop = () => {
     const [seafood, setSeafood] = useState([]);
-    const [cart, setCart] = useState([]);
+    const [cart, setCart] = useState([]);    
 
     useEffect(() => {
         fetch('data.json')
@@ -21,11 +21,21 @@ const Shop = () => {
                 const newCart = [...cart, item];
                 setCart(newCart)
             }
-        }  
+        }
+        document.getElementById('title').innerText = "Selected Items:";  
+    }
+    const chooseOne = () => {
+        if((cart.length>0)){
+        const index = parseInt(Math.random()*(cart.length));
+        const choosedItem = [cart[index]];
+        setCart(choosedItem);
+        document.getElementById('title').innerText = "You should choose:";
+        }
     }
     const cleatCart = () => {
         const clear = [];
         setCart(clear);
+        document.getElementById('title').innerText = "Choose Items";
     }
 
     return (
@@ -39,11 +49,11 @@ const Shop = () => {
                 }
                 </div>
                 <div className='cart-container'>
-                    <h3>Selected Items:</h3>
+                    <h3 id='title'>Choose Items:</h3>
                     {
                         cart.map(food => <Cart key={food.id} food={food}></Cart>)
                     }
-                    <button className='choose-btn'>Choose One For me <FontAwesomeIcon icon={faCheck} /></button>
+                    <button onClick={chooseOne} className='choose-btn'>Choose One For me <FontAwesomeIcon icon={faCheck} /></button>
                     <button onClick={cleatCart} className='add-to-cart-btn'>Choose Again <FontAwesomeIcon icon={faClose} /></button>
                 </div>
             </div>
