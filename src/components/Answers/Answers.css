@@ -1,11 +1,14 @@
 .question-container{
     text-align: left;
     margin-top: 5%;
-    padding-left: 10%;
+    padding: 0 10%;
+}
+.question-container h1{
+    color: green;
 }
 th{
-    color: blue;
-    background-color: aquamarine;
+    color: green;
+    background-color: rgb(202, 255, 181);
     text-align: center;
     
 }
