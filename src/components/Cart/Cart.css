@@ -3,3 +3,14 @@
     
 
 }
+
+.choose-btn{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(172, 215, 255);
+    border-radius: 50px;
+}
+.choose-btn:hover{
+    background-color: rgb(129, 194, 255);
+}

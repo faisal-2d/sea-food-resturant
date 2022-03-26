@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faCheck, faClose, faCross } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Seafood from '../Seafood/Seafood';
@@ -14,8 +16,16 @@ const Shop = () => {
     },[]);
 
     const addToCart = (item) => {
-        const newCart = [...cart, item];
-        setCart(newCart)
+        if(cart.length<4){
+            if(!cart.includes(item)){
+                const newCart = [...cart, item];
+                setCart(newCart)
+            }
+        }  
+    }
+    const cleatCart = () => {
+        const clear = [];
+        setCart(clear);
     }
 
     return (
@@ -33,6 +43,8 @@ const Shop = () => {
                     {
                         cart.map(food => <Cart key={food.id} food={food}></Cart>)
                     }
+                    <button className='choose-btn'>Choose One For me <FontAwesomeIcon icon={faCheck} /></button>
+                    <button onClick={cleatCart} className='add-to-cart-btn'>Choose Again <FontAwesomeIcon icon={faClose} /></button>
                 </div>
             </div>
         </div>

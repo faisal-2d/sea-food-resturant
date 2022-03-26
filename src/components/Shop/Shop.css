@@ -3,6 +3,9 @@
     top: 0;
     text-align: left;
 }
+.cart-container button{
+    margin-top: 10px;
+}
 
 
 .shop-container{
