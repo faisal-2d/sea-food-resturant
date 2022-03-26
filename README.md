@@ -1,6 +1,6 @@
 # Seafood Shop
 
-[Live Site](www.google.com)
+[Live Site](https://precious-pavlova-2057ab.netlify.app/)
 
 
 
